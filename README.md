@@ -1,0 +1,1 @@
+# woocommerce-coupon-codes-renamed
