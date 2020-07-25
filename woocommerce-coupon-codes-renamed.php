@@ -1,11 +1,12 @@
 <?php
 /**
  * Plugin Name: WooCommerce Coupon Codes Renamed
- * Plugin URI: https://github.com:mrgrt/woocommerce-coupon-codes-renamed
+ * Plugin URI: https://github.com/mrgrt/woocommerce-coupon-codes-renamed
  * Description: Rename coupon codes in woocommerce
- * Version: 1
+ * Version: 1.1
+ * Tested up to: 4.2.2
  * Author: Grahame Thomson
- * Author URI: https://github.com:mrgrt
+ * Author URI: https://github.com/mrgrt
  */
 
 add_filter( 'gettext', 'woocommerce_rename_coupon_field_on_cart', 10, 3 );
