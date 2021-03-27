@@ -79,7 +79,9 @@ function rename_coupon_label($err, $err_code=null, $something=null){
 
 	$code_text  = get_option( 'coupon_code_text' );
 
-	if($code_text){
+	if(strpos($err, 'Coupon code') !== false) {
+		$err = str_ireplace("Coupon code",$code_text,$err);
+	} elseif(strpos($err, 'Coupon') !== false){
 		$err = str_ireplace("Coupon",$code_text,$err);
 	}
 
