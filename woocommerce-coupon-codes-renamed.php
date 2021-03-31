@@ -7,6 +7,8 @@
  * Tested up to: 5.7
  * Author: Grahame Thomson
  * Author URI: https://github.com/mrgrt
+ * License: GPL v3 or later
+ * License URI: https://www.gnu.org/licenses/gpl-3.0.html
  */
 
 add_filter( 'gettext', 'woocommerce_rename_coupon_field_on_cart', 10, 3 );
