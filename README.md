@@ -1,4 +1,4 @@
-## WooCommerce Coupon Codes Renamed
+## Coupon Codes Renamed
 
 GNU GPL v3
 
