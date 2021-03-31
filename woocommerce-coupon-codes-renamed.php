@@ -1,6 +1,6 @@
 <?php
 /**
- * Plugin Name: WooCommerce Coupon Codes Renamed
+ * Plugin Name: Coupon Codes Renamed
  * Plugin URI: https://github.com/mrgrt/woocommerce-coupon-codes-renamed
  * Description: Rename coupon codes in woocommerce
  * Version: 1.1
