@@ -60,7 +60,7 @@ function woocommerce_rename_coupon_message_on_checkout($message) {
 
 	if($code_text){
 
-		if(in_array($code_text{0}, $vowels)){
+		if(in_array($code_text[0], $vowels)){
 			$question = 'Have an ';
 		} else{
 			$question = 'Have a ';
